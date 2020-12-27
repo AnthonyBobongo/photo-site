@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 #name {
-  font-family: 'Audiowide', cursive;
-
+  font-family: "Audiowide", cursive;
 }
 img {
   width: 30%;
+  margin: 1%;
+  transition: .25s;
+}
+
+img:hover {
+  transform: translateY(-1%);
 }
